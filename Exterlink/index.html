@@ -24,8 +24,10 @@
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="dns-prefetch" href="https://fonts.gstatic.com">
 <link rel="dns-prefetch" href="https://unpkg.com">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 
 <!-- ═══ OPEN GRAPH (Facebook, LinkedIn, WhatsApp previews) ════ -->
 <meta property="og:type" content="website">
@@ -297,9 +299,9 @@ body{background:#0D0B1F;color:#FAFAFA;font-family:'Inter',sans-serif;-webkit-fon
 .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:16px;transition:all 350ms ease}
 .card:hover{border-color:rgba(139,92,246,.35);background:rgba(139,92,246,.05);transform:translateY(-4px)}
 </style>
-<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
 </head>
 <body>
 <div id="root"></div>
@@ -350,7 +352,7 @@ function VideoCard({ sz }) {
       <video
         ref={ref}
         src="./videos/hero-video.mp4"
-        autoPlay loop muted playsInline preload="auto"
+        autoPlay loop muted playsInline preload="metadata"
         style={{ width:'100%', height:'100%', display:'block', objectFit:'cover' }}
       />
       {/* Live pill */}
