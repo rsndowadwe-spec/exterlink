@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://exterlink.in/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://exterlink.in/og-image.jpg</image:loc>
+      <image:title>Exterlink — AI Clone That Grows 10,000 Followers</image:title>
+      <image:caption>Grow your social media following with your AI clone — automatically</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://exterlink.in/og-image.jpg</video:thumbnail_loc>
+      <video:title>Exterlink AI Clone — See your digital twin in action</video:title>
+      <video:description>Watch an Exterlink AI clone posting content across social media platforms automatically. Your voice, your face, no filming required.</video:description>
+      <video:content_loc>https://exterlink.in/videos/hero-video.mp4</video:content_loc>
+      <video:publication_date>2026-01-01</video:publication_date>
+    </video:video>
+  </url>
+</urlset>

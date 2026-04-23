@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block private/internal paths (add any you need)
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemaps
+Sitemap: https://exterlink.in/sitemap.xml
+
+# Crawl-delay for polite crawlers
+Crawl-delay: 1
